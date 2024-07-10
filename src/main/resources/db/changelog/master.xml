@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
+
+    <include file="db/changelog/20240709112405_created_user_entity.xml"/>
+    <include file="db/changelog/20240709113005_created_product_entity.xml"/>
+    <include file="db/changelog/20240709122305_created_order_entity.xml"/>
+    <include file="db/changelog/20240710112222_delete_colum_order_entity.xml"/>
+    <include file="db/changelog/20240710115234_alter_table_name_order_entity.xml"/>
+    <include file="db/changelog/20240710121803_added_column_user_entity.xml"/>
+    <include file="db/changelog/20240710123003_rename_column_user_entity.xml"/>
+</databaseChangeLog>
